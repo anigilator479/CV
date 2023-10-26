@@ -1,0 +1,127 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a dark background and set text color */
+body {
+  background-color: #222;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the headers */
+h1, h2 {
+  color: #ddd;
+}
+
+/* Style links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Style the sections */
+section {
+  margin: 20px 0;
+}
+
+/* Style the skills list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Add a subtle box shadow to sections for separation */
+section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Style contact info */
+#contact p {
+  margin: 10px 0;
+}
+
+/* Style the education and self-education sections */
+#education p, #self-education p {
+  margin: 10px 0;
+}
+
+/* Style the books section */
+#books p {
+  margin: 10px 0;
+}
+
+/* Style the achievements section */
+#achievements p {
+  margin: 10px 0;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.left {
+  grid-column: 1 / 2;
+}
+
+.right {
+  grid-column: 2 / 3;
+}
+
+/* Center-align the header */
+.center {
+  text-align: center;
+}
+
+/* Style the unordered list */
+ul {
+  list-style: disc; /* White disc bullets */
+  margin-left: 20px; /* Left margin for list items */
+}
+
+/* Increase the font size for the header */
+h1 {
+  font-size: 28px;
+}
+
+/* Increase the font size for the job title */
+.job-title {
+  font-size: 20px;
+}
+
+/* Apply a custom font (You can replace 'YourCustomFont' with the actual font name) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topic {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#subTopic{
+margin-bottom: 10px;
+}
+
+#peshka{
+margin-bottom: 10px;
+}
